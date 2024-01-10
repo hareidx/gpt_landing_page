@@ -45,10 +45,10 @@ footer {
 }
 
 .card {
-    perspective: 1000px;
+    perspective: 800px;
     width: 350px;
     height: 350px;
-    margin: 10px;
+    margin-right: 25px;
     cursor: pointer;
 }
 
@@ -66,8 +66,8 @@ footer {
 
 .card-front, .card-back {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 70%;
     backface-visibility: hidden;
 }
 
@@ -82,7 +82,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px; 
+    padding: 30px; 
 }
 
 .glossy-text {
