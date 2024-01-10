@@ -43,6 +43,7 @@ footer {
     border-top: 1px solid #cfec78; /* Optional border for separation from main content */
     border-bottom: 1px solid #cfec78; /* Optional border for separation from the footer */
 }
+
 .card {
     perspective: 1000px;
     width: 350px;
@@ -81,8 +82,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px; 
 }
-
 
 .glossy-text {
     color: #fff; /* White text color */
