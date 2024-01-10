@@ -43,26 +43,12 @@ footer {
     border-top: 1px solid #cfec78; /* Optional border for separation from main content */
     border-bottom: 1px solid #cfec78; /* Optional border for separation from the footer */
 }
-
 .card {
+    perspective: 1000px;
+    width: 350px;
+    height: 350px;
     margin: 10px;
-    border: 1px solid #ddd;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-    width: 300px;
-    text-align: center;
     cursor: pointer;
-    background-color: #e9e0f8; /*e4d7f9*/
-}
-
-.card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.card p {
-    margin: 0;
-    padding: 15px;
 }
 
 .card-inner {
@@ -75,7 +61,6 @@ footer {
 
 .card:hover .card-inner {
     transform: rotateY(180deg);
-    box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
 }
 
 .card-front, .card-back {
@@ -97,6 +82,7 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
 
 .glossy-text {
     color: #fff; /* White text color */
